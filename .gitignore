@@ -1,0 +1,7 @@
+# Python Binary Files
+__pycache__
+.pyc
+.pyo
+
+# Python Virtual Environment
+.venv
