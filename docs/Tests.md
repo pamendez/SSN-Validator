@@ -10,8 +10,6 @@ This document is intented for documenting every test case utilized during the de
 6. [Test case 6](#test-case-6)
 7. [Test case 7](#test-case-7)
 8. [Test case 8](#test-case-8)
-9. [Test case 9](#test-case-9)
-10. [Test case 10](#test-case-10)
 
 ## Test case 1
 | Concept | Description |
@@ -104,20 +102,7 @@ This document is intented for documenting every test case utilized during the de
 | Expected result | Invalid SSN with error message |
 | Actual result | TBD |
 
-## Test case 9
-| Concept | Description |
-| ----- | ----- |
-| Test type | Failing test | 
-| Scenario | Verify social security number (SSN). |
-| Case | Enter invalid social security number (SSN) due to presence of letters in second part. |
-| Preconditions | N/A |
-| Data | 123-4B-0001 |
-| Steps | <ol><li>Execute the application</li><li>Enter the invalid SSN due to presence of letters in second part.</li><li>Press ENTER.</li></ol>
-| Postconditions | N/A |
-| Expected result | Invalid SSN with error message |
-| Actual result | TBD |
-
-## Test case 10
+## Test case 8
 | Concept | Description |
 | ----- | ----- |
 | Test type | Failing test | 
