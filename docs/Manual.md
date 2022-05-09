@@ -38,4 +38,4 @@ python validate.py
 Once in the application, you can insert the social security number after the previous message is shown. Depending on your input, the social security number can be valid or invalid:
 
 * If the social security number entered is valid, a message will be shown indicating the validity.
-* Otherwise, if the social security number is not valid, a message will be shown indicating the invalidity, alongside the reason why it was invalid.
+* Otherwise, if the social security number is not valid, a message will be shown indicating the invalidity, alongside the reason why it is invalid.

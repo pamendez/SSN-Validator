@@ -10,7 +10,7 @@
 | Pedro Arturo Mendez Cruz | 1088438 | 1088438@est.intec.edu.do |
 
 ## Description
-This repostory represents the first homework of the laboratory component of the subject known as "Application Development Tendencies" (INS364L), where the application consists on validating the sequence of numbers known as the social security number. 
+This repostory represents the first homework of the laboratory component of the subject known as "Application Development Tendencies" (INS364L), where the application consists on validating the sequence of numbers known as the social security number.
 
 A social security number (SSN) refers to a numerical identifier assigned to U.S. citizens and other residents to track income and determine benefits (Kagan, J., 2021, [source](https://www.investopedia.com/terms/s/ssn.asp)).
 
@@ -24,4 +24,4 @@ A valid SSN (Social Security Number) must satisfy the following conditions:
     * The third part should have 4 digits and it should be from 0001 to 9999.
 
 ## User Manual
-You can find the user manual by clicking [here](docs\Manual.md). In that document, you can find the installation, execution and 
+You can find the user manual by clicking [here](docs/Manual.md). In that document, you can find the installation, execution and usage of the program.

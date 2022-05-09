@@ -7,8 +7,11 @@ This document is intented for documenting every test case utilized during the de
 3. [Test case 3](#test-case-3)
 4. [Test case 4](#test-case-4)
 5. [Test case 5](#test-case-5)
-6.
-7.
+6. [Test case 6](#test-case-6)
+7. [Test case 7](#test-case-7)
+8. [Test case 8](#test-case-8)
+9. [Test case 9](#test-case-9)
+10. [Test case 10](#test-case-10)
 
 ## Test case 1
 | Concept | Description |
@@ -93,23 +96,36 @@ This document is intented for documenting every test case utilized during the de
 | ----- | ----- |
 | Test type | Failing test | 
 | Scenario | Verify social security number (SSN). |
-| Case | Enter invalid social security number (SSN) due to presence of letters in any part. |
+| Case | Enter invalid social security number (SSN) due to presence of letters. |
 | Preconditions | N/A |
-| Data | <ol><li>12A-45-0001</li><li>123-4B-0001</li><li>122-45-000C</li></ol> |
-| Steps | <ol><li>Execute the application</li><li>Enter the invalid SSN due to presence of letters.</li><li>Press ENTER.</li></ol>
+| Data | <li>12A-45-0001</li><li>123-B4-0001</li><li>123-45-C001</li> |
+| Steps | <ol><li>Execute the application</li><li>Enter the invalid SSN due to presence of letters in first part.</li><li>Press ENTER.</li></ol>
 | Postconditions | N/A |
 | Expected result | Invalid SSN with error message |
 | Actual result | TBD |
 
-## Test case 8
+## Test case 9
+| Concept | Description |
+| ----- | ----- |
+| Test type | Failing test | 
+| Scenario | Verify social security number (SSN). |
+| Case | Enter invalid social security number (SSN) due to presence of letters in second part. |
+| Preconditions | N/A |
+| Data | 123-4B-0001 |
+| Steps | <ol><li>Execute the application</li><li>Enter the invalid SSN due to presence of letters in second part.</li><li>Press ENTER.</li></ol>
+| Postconditions | N/A |
+| Expected result | Invalid SSN with error message |
+| Actual result | TBD |
+
+## Test case 10
 | Concept | Description |
 | ----- | ----- |
 | Test type | Failing test | 
 | Scenario | Verify social security number (SSN). |
 | Case | Enter invalid social security number (SSN) due to lack of digits in any part. |
 | Preconditions | N/A |
-| Data | <ol><li>1-52-6502</li><li>11-2-6502</li><li>11-52-6</li></ol> |
-| Steps | <ol><li>Execute the application</li><li>Enter the invalid SSN due to lack of digits.</li><li>Press ENTER.</li></ol>
+| Data | <li>1-811-6453</li><li>123-8-6453</li><li>123-811-6</li> |
+| Steps | <ol><li>Execute the application</li><li>Enter the invalid SSN due to lack of digits in first part.</li><li>Press ENTER.</li></ol>
 | Postconditions | N/A |
 | Expected result | Invalid SSN with error message |
 | Actual result | TBD |
