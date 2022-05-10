@@ -61,11 +61,11 @@ This document is intented for documenting every test case utilized during the de
 | Scenario | Verify social security number (SSN). |
 | Case | Enter valid social security number (SSN) with bad first part. |
 | Preconditions | N/A |
-| Data | 000-13-0096 |
+| Data | <li>000-13-0096</li><li>945-13-0096</li><li>666-13-0096</li> |
 | Steps | <ol><li>Execute the application</li><li>Enter the invalid SSN due to bad first part.</li><li>Press ENTER.</li></ol>
 | Postconditions | N/A |
 | Expected result | Invalid SSN with error message. |
-| Actual result | The SSN is invalid. The following error(s) were found:<br>- The first part of the SSN has an invalid number. |
+| Actual result | (For all test data)<br><br>The SSN is invalid. The following error(s) were found:<br>- The first part of the SSN has an invalid number. |
 
 ## Test case 5
 | Concept | Description |
@@ -163,7 +163,7 @@ This document is intented for documenting every test case utilized during the de
 | ----- | ----- |
 | Test type | Failing test | 
 | Scenario | Verify social security number (SSN). |
-| Case | Enter invalid social security number (SSN) due to lack of digits in the first part. |
+| Case | Enter invalid social security number (SSN) due to lack of digits in the third part. |
 | Preconditions | N/A |
 | Data | 123-81-6 |
 | Steps | <ol><li>Execute the application</li><li>Enter the invalid SSN due to lack of digits in first part.</li><li>Press ENTER.</li></ol>
