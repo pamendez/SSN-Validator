@@ -19,7 +19,7 @@ Beforehand, make sure to satisfy the requirements of this project. To install th
 
 2. Next, type the following command and, optionally, insert the path of the repository with the application:
 ``` 
-git clone https://github.com/pamendez/SSN-Validator <path-to-repo>
+git clone https://github.com/pamendez/SSN-Validator.git <path-to-repo>
 ```
 
 3. After cloning the application, type the following command with the path of the repository
