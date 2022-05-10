@@ -56,7 +56,13 @@ def validate_ssn(input_ssn):
         pass
 
     else:
-        error_list.append((4, 1)) # Status code for insufficient or excess of parts.
+        if (len(input_ssn_parts) > 3):
+            error_list.append((4, 1)) # Status code for excess of parts.
+            pass
+
+        else:
+            error_list.append((4, 2)) # Status code for insufficient of parts.
+            pass
         pass
 
     return error_list
