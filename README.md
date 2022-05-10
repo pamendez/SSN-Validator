@@ -1,8 +1,9 @@
 # SSN Validator
 ## Table of contents
 1. [Author](#author)
-2. [Problem](#problem)
-3. [User manual](#user-manual)
+2. [Description](#description)
+3. [Problem](#problem)
+4. [User manual](#user-manual)
 
 ## Author
 | Name | ID | Email |
@@ -10,7 +11,7 @@
 | Pedro Arturo Mendez Cruz | 1088438 | 1088438@est.intec.edu.do |
 
 ## Description
-This repostory represents the first homework of the laboratory component of the subject known as "Application Development Tendencies" (INS364L), where the application consists on validating the sequence of numbers known as the social security number.
+This repostory represents the first homework of the laboratory component of the subject known as "Application Development Tendencies" (INS368L), where the application consists on validating the sequence of numbers known as the social security number.
 
 A social security number (SSN) refers to a numerical identifier assigned to U.S. citizens and other residents to track income and determine benefits (Kagan, J., 2021, [source](https://www.investopedia.com/terms/s/ssn.asp)).
 
