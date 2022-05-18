@@ -28,9 +28,16 @@ cd <path-to-repo>
 ```
 
 4. Next, to execute the application, use the following command:
+
+* For Windows users:
 ```
 python validate.py
 ``` 
+
+* For Linux users:
+```
+python3 validate.py
+```
 
 5. If everything worked, the message ```'Enter a social security number'``` will appear on the terminal on your screen, and with that you successfully installed this application.
 
